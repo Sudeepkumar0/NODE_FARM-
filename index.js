@@ -71,13 +71,14 @@ const tempProduct = fs.readFileSync(
 );
 
 const server = http.createServer((req, res) => {
-  console.log(req.url);
+  // console.log(req.url);
 
-  const pathName = req.url;
+  const { query, pathname } = url.parse(req.url, true);
+
   // pathName === "/" ||
 
   //OVERVIEW PAGE
-  if (pathName === "/overview") {
+  if (pathname === "/overview") {
     res.writeHead(200, {
       "content-type": "text/html",
       "my-own-header": "This is overview",
@@ -92,11 +93,20 @@ const server = http.createServer((req, res) => {
   }
 
   //PRODUCT PAGE
-  else if (pathName === "/product") {
-    res.end("This is Product");
-  } else if (pathName === "/") {
+  else if (pathname === "/product") {
+    console.log(query);
+    res.writeHead(200, {
+      "content-type": "text/html",
+      "my-own-header": "This is overview",
+    });
+    const productid = dataObj[query.id];
+
+    const productOutput = replaceTemplate(tempProduct, productid);
+
+    res.end(productOutput);
+  } else if (pathname === "/") {
     res.end("Hello From the server which is created by Sudeep");
-  } else if (pathName === "/api") {
+  } else if (pathname === "/api") {
     fs.readFile(`${__dirname}/dev-data/data.json`, "utf-8", (err, data) => {
       if (err) {
         console.error("Error reading file:", err);
