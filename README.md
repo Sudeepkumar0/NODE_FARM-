@@ -102,7 +102,7 @@ Displays all available products in a clean grid layout.
 
 Shows detailed information about a selected product using its product ID.
 
-![Product Details Page](./screenshots/product.png)
+![Product Details Page](https://github.com/Sudeepkumar0/NODE_FARM-/blob/main/txt/NODE_FARM_TWO.jpg)
 
 ---
 
@@ -123,6 +123,7 @@ Please make sure your code follows the existing style and includes clear documen
 > *"A simple Node.js project that demonstrates how data and templates work together to create dynamic web content."*
 
 ---
+
 
 
 
