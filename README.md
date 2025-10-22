@@ -1,4 +1,3 @@
-````markdown
 # 🌱 NODE_FARM
 
 ![Status](https://img.shields.io/badge/Status-Active-blue)
@@ -48,7 +47,7 @@ cd NODE_FARM-
 
 # Install dependencies
 npm install
-````
+
 
 ### Running the App
 
@@ -58,7 +57,7 @@ node index.js
 ```
 
 Open your browser and go to:
-👉 **[http://localhost:3000](http://localhost:3000)**
+👉 **[http://localhost:8000](http://localhost:8000)**
 
 ---
 
@@ -132,3 +131,4 @@ Please make sure your code follows the existing style and includes clear documen
 
 Would you like me to **generate this as a downloadable `README.md` file** (so you can directly add it to your GitHub repo)?
 ```
+
