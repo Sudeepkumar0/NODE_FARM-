@@ -94,7 +94,7 @@ NODE_FARM-/
 
 Displays all available products in a clean grid layout.
 
-![Overview Page](./screenshots/overview.png)
+![Overview Page](https://github.com/Sudeepkumar0/NODE_FARM-/blob/main/txt/NODE_FARM_ONE.jpg)
 
 ---
 
@@ -114,21 +114,17 @@ Please make sure your code follows the existing style and includes clear documen
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **G Sudeep Kumar**
-📧 [[sudeepkumar.connect@gmail.com](mailto:sudeepkumar.connect@gmail.com)]
+[[sudeepkumar.connect@gmail.com](mailto:sudeepkumar.connect@gmail.com)]
 🔗 [GitHub Profile](https://github.com/Sudeepkumar0)
 
 > *"A simple Node.js project that demonstrates how data and templates work together to create dynamic web content."*
 
 ---
 
-```
 
----
 
-Would you like me to **generate this as a downloadable `README.md` file** (so you can directly add it to your GitHub repo)?
-```
 
 
